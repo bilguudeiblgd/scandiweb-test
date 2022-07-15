@@ -1,0 +1,23 @@
+.nav-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.nav-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.nav-category {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-category-item {
+    text-transform: uppercase;
+    margin-right: 2rem;
+}
